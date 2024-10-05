@@ -19,7 +19,7 @@ photo-album/
 - A local server that supports PHP (like XAMPP, MAMP, or WAMP).
 - Move the photo-album directory into the htdocs folder (or the equivalent folder for your local server).
 - Place your sample images in the images/ directory. Ensure that the images you add are in a supported format (like JPEG, PNG).
-- 
+- Images may load slowly beacuse of the png formant.
 
 
 

@@ -55,3 +55,47 @@ body {
 .pagination span {
     font-size: 18px;
 }
+
+
+/* Responsive Styles */
+@media (max-width: 768px) { /* Tablet */
+    .album-container {
+        width: 90%;
+    }
+
+    .main-image img {
+        max-width: 100%; /* Adjust max-width for smaller screens */
+    }
+
+    .small-images img {
+        width: 150px; /* Smaller images on tablet */
+    }
+
+    .pagination {
+        width: 100%; /* Full width on smaller devices */
+    }
+}
+
+@media (max-width: 480px) { /* Mobile */
+    .album-container {
+        width: 85%;
+    }
+    .small-images {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        width: 80%;
+    }
+
+    .small-images img {
+        width: 100px; /* Even smaller images on mobile */
+    }
+
+    .pagination {
+        font-size: 14px; /* Adjust font size */
+    }
+
+    .pagination a {
+        padding: 5px; /* Adjust padding for mobile */
+    }
+}
