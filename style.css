@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.album-container {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.main-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.small-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.small-images img {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+}
+
+.pagination {
+    margin-top: 20px;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.pagination a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007bff;
+    padding: 5px 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+}
+
+.pagination a:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.pagination span {
+    font-size: 18px;
+}
